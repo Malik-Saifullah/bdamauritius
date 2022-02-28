@@ -1,0 +1,34 @@
+/*======================================================= reset default setting
+=======================================================*/
+*, *::before, *::after { -webkit-box-sizing: border-box; box-sizing: border-box; /* Remove all animations and transitions for people that prefer not to see them */ }
+
+/* Remove default margin */
+body, h1, h2, h3, h4, p, figure, blockquote, dl, dd { margin: 0; }
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"], ol[role="list"] { list-style: none; }
+
+/* Set core root defaults */
+html { scroll-behavior: smooth; }
+
+/* Set core body defaults */
+body { font-family: 'Open Sans', sans-serif; min-height: 100vh; text-rendering: optimizeSpeed; background-color: #FFFBFB; }
+
+/* A elements that don't have a class get default styles */
+a:not([class]) { text-decoration-skip-ink: auto; }
+
+/* Make images easier to work with */
+img, picture { max-width: 100%; display: block; }
+
+/* image-rendering */
+audio, canvas, embed, iframe, img, object, svg, video { image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges; }
+
+/* Inherit fonts for inputs and buttons */
+input, button, textarea, select { font: inherit; }
+
+a { text-decoration: none; }
+
+/*======================================================= header
+=======================================================*/
+
+/*# sourceMappingURL=main.css.map */
