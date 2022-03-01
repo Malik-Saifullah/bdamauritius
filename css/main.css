@@ -28,6 +28,8 @@ input, button, textarea, select { font: inherit; }
 
 a { text-decoration: none; }
 
+.btn-check:focus + .btn, .btn:focus { -webkit-box-shadow: 0 0 0 0.15rem rgba(232, 46, 76, 0.25); box-shadow: 0 0 0 0.15rem rgba(232, 46, 76, 0.25); }
+
 /*======================================================= header
 =======================================================*/
 
