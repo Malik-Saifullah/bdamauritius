@@ -22,7 +22,7 @@
         <!-- header -->
         <header id="header">
             <div class="header-top">
-                <div class="container">
+                <div class="custom-container">
                     <div class="d-flex align-items-center justify-content-between flex-wrap">
                         <a href="mailto:contact@bdamauritius.org" class="email">
                             <i class="far fa-envelope"></i> contact@bdamauritius.org
@@ -33,63 +33,63 @@
                     </div>
                 </div>
             </div>
-            <div class="header-bottom">
-                <div class="container">
-                    <nav class="navbar navbar-expand-lg">
-                        <div class="container-fluid">
-                            <a class="navbar-brand" href="#">
-                                <img src="./images/logo.png" width="228" height="65" alt="" class="logo">
-                            </a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                                aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                                <ul class="navbar-nav mx-auto">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="about-us" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            About us
-                                        </a>
-                                        <ul class="dropdown-menu" aria-labelledby="#about-us">
-                                            <li><a class="dropdown-item" href="#">Vision & Mission</a></li>
-                                            <li><a class="dropdown-item" href="#">Managing Committee</a></li>
-                                            <li><a class="dropdown-item" href="#">Our Team</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="user-info" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            All about Blood
-                                        </a>
-                                        <ul class="dropdown-menu" aria-labelledby="#user-info">
-                                            <li><a class="dropdown-item" href="#">What is blood</a></li>
-                                            <li><a class="dropdown-item" href="#">Blood donation process</a></li>
-                                            <li><a class="dropdown-item" href="#">Become a Platelet Donor</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Join us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Faqs</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Contact us</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <nav class="navbar ml-auto">
-                                <form class="container-fluid justify-content-start">
-                                    <button class="btn rounded-pill me-2" type="button">Blood Request</button>
-                                    <button class="btn rounded-pill" type="button">Donate</button>
-                                </form>
-                            </nav>
+            <div class="header-bottom sticky">
+                <div class="custom-container">
+                    <nav class="navbar navbar-expand-md">
+                        <a class="navbar-brand" href="#">
+                            <img src="./images/logo.png" width="228" height="65" alt="" class="logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon">
+                                <i class="fas fa-bars"></i>
+                            </span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="about-us" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        About us
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="#about-us">
+                                        <li><a class="dropdown-item" href="#">Vision & Mission</a></li>
+                                        <li><a class="dropdown-item" href="#">Managing Committee</a></li>
+                                        <li><a class="dropdown-item" href="#">Our Team</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="user-info" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        All about Blood
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="#user-info">
+                                        <li><a class="dropdown-item" href="#">What is blood</a></li>
+                                        <li><a class="dropdown-item" href="#">Blood donation process</a></li>
+                                        <li><a class="dropdown-item" href="#">Become a Platelet Donor</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Join us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Faqs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact us</a>
+                                </li>
+                            </ul>
                         </div>
+                        <nav class="navbar ml-auto">
+                            <form class="header-btn-box justify-content-start">
+                                <button class="btn btn-blood-request rounded-pill me-2" type="button">Blood Request</button>
+                                <button class="btn btn-donate rounded-pill" type="button">Donate</button>
+                            </form>
+                        </nav>
                     </nav>
                 </div>
             </div>
@@ -100,12 +100,12 @@
 
             <!-- page-banner -->
             <section id="breadcrumb-banner">
-                <div class="container"></div>
+                <div class="custom-container"></div>
             </section>
 
             <!-- about-us -->
             <section id="about-us">
-                <div class="container">
+                <div class="custom-container">
                     <h1 class="page-title">About Us</h1>
                     <p class="desc">The Blood Donors Association was created in 1998 and duly registered with the Registrar of Associations on 22nd March 1999. It was officially launched on 10th November 1999 with 15 members at that time, the association has expanded to  a fraternity of over thousands blood donors, organizers, motivators, associates, corporate health care partners and sponsors and members from all walks of life. Their shared mission: to bridge the woeful gap between the supply and demand of the life-saving fluid (blood) in Mauritius.</p>
                     <p class="desc">At BDA, we believe that the most effective way is to bring the bank to the donors, rather than wait for them to come forward on their own. The mobile blood collectionistherefore the focal point of our activities. Apart from organizing our own mobile blood collection, we extend our services to some organizers which includes: </p>
@@ -153,13 +153,13 @@
         <!-- footer -->
         <footer id="footer">
             <div class="footer-top">
-                <div class="container">
+                <div class="custom-container">
                     <div class="row">
                         <div class="col-md-6">
                             <img src="./images/icons/icon-01.jpg" alt="" class="footer-img-01">
                             <img src="./images/icons/icon-02.png" alt="" class="footer-img-02">
                             <p class="footer-desc">You need a blood donation or you want to make a blood donation?</p>
-                            <p class="footer-app-desc">Just Download our app and get started! <br>
+                            <p class="footer-desc">Just Download our app and get started! <br>
                                 To download, you can search ‘NouDisan’ on the Apple App Store or Google Play.</p>
                             <div class="app-store-link-box">
                                 <div class="app-link-box">
@@ -205,9 +205,9 @@
                 </div>
             </div>
             <div class="footer-middle">
-                <div class="container">
-                    <div class="footer-pagination">
-                        <ul class="footer-nav-list">
+                <div class="custom-container">
+                    <div class="footer-pagination d-flex align-content-center justify-content-center flex-wrap">
+                        <ul class="footer-nav-list d-flex align-content-center flex-wrap" role="list">
                             <li class="footer-nav-item">
                                 <a href="#" class="footer-nav-link">About Us</a>
                             </li>
@@ -221,8 +221,8 @@
                                 <a href="#" class="footer-nav-link">BDA Mauritius BRN</a>
                             </li>
                         </ul>
-                        <ul class="social-list">
-                            <li class="social-item">
+                        <ul class="social-list d-flex align-content-center" role="list">
+                            <li class="social-item mr-3">
                                 <a href="#" class="social-link">
                                     <i class="fab fa-facebook"></i>
                                 </a>
@@ -237,8 +237,8 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <div class="container">
-                    <p class="copyright">Copyright 2022 © All rights Reserved. Design by Dygitale45</p>
+                <div class="custom-container">
+                    <p class="copyright">Copyright 2022 © All rights Reserved. Design by <a href="" target="_blank" rel="noopener noreferrer">Dygitale45</a></p>
                 </div>
             </div>
         </footer>
@@ -248,18 +248,6 @@
     <script src="./lib/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>
-
-    <script>
-        const swiper = new Swiper('.mobile-app-imgs-carousel', {
-            slidesPerView: 1,
-            slidesPerView: "auto",
-            // mousewheel: true,
-            keyboard: true,
-            pagination: {
-                el: ".swiper-pagination",
-            },
-        });
-    </script>
 </body>
 
 </html>
