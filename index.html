@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./lib/bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./lib/fontawesome-free-6.0.0-web/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./lib/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
@@ -19,7 +19,7 @@
     <div class="wrapper">
 
         <!-- header -->
-        <header id="header">
+        <header id="header" class="position_absolute">
             <div class="header-top">
                 <div class="custom-container">
                     <div class="d-flex align-items-center justify-content-between flex-wrap">
@@ -95,7 +95,202 @@
         </header>
 
         <!-- main -->
-        <main id="main"></main>
+        <main id="main">
+            <section id="banner">
+                <video class="banner-video" autoplay="" muted="" playsinline="" loop="" src="./video/Homepage-720px.mp4"></video>
+            </section>
+
+            <section id="section-1">
+                <div class="custom-container">
+                    <h3 class="heading-1">Don't Wait. Save a Life Today</h3>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="title">Because of You, Life Doesn’t Stop</p>
+                            <p class="desc">Every 10 minutes, someone in Mauritius needs blood. <br>
+                                This could be a little Thalassemic girl in the ICU or a mother with Stage 3 leukemia or even a son who just met with an accident. <br>
+                                Unseen emergencies happen every day.</p>
+                            <p class="title">Don’t wait to save life.</p>
+                            <p class="desc">And if you’re worried about needles, don’t be — most blood donors compare the experience to a mild, split-second pinch! <br>
+                                The entire process is very safe and very fast, and you will feel amazing knowing you potentially saved up to three people.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="./images/brand-img.png" alt="">
+                                    <p class="desc">
+                                        <strong>The Blood Donors Association is a NGO that supports health authorities and patients to promote and organise safe and sustainable blood programmes.</strong>
+                                    </p>
+                                    <p class="desc">Over the last 20 years, we have supported the collection of over 500,000 pints of blood.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="section-2">
+                <div class="custom-container">
+                    <h3 class="heading-1">Learn More And Donate</h3>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="card" style="background-image: url(./images/section-2/card-01.jpg);">
+                                <div class="card-body">
+                                    <div class="card-inner-box">
+                                        <p class="card-title">Request Blood</p>
+                                        <p class="card-desc">Get your message sent directly to donors</p>
+                                    </div>
+                                    <button class="btn-card">Request Blood</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card" style="background-image: url(./images/section-2/card-02.jpg);">
+                                <div class="card-body">
+                                    <div class="card-inner-box">
+                                        <p class="card-title">Become A Donor</p>
+                                        <p class="card-desc">How about saving a life today?</p>
+                                    </div>
+                                    <button class="btn-card">Book to donate</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card" style="background-image: url(./images/section-2/card-03.jpg);">
+                                <div class="card-body">
+                                    <div class="card-inner-box">
+                                        <p class="card-title">Organize A Blood Drive</p>
+                                        <p class="card-desc">You want to help and wish to have a lending hand?</p>
+                                    </div>
+                                    <button class="btn-card">Organize</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card" style="background-image: url(./images/section-2/card-04.jpg);">
+                                <div class="card-body">
+                                    <div class="card-inner-box">
+                                        <p class="card-title">Support Us</p>
+                                        <p class="card-desc">Together, we can make a great difference in the lives of our patients</p>
+                                    </div>
+                                    <button class="btn-card">SUPPORT US</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="section-3">
+                <div class="grid">
+                    <div class="col" style="background-image: url(./images/section-3/card-bg-01.jpg);">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./images/section-3/card-img-01.png" alt="">
+                                <p class="card-desc">The Women’s Commission of the Blood Donation is a key partner in the promotion of voluntary blood donation among women.</p>
+                                <button class="btn-card">Become a member</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" style="background-image: url(./images/section-3/card-bg-02.jpg);">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./images/section-3/card-img-02.png" alt="">
+                                <p class="card-desc">The Pledge 15 Club programme helps Mauritian youths stay engaged with blood donation and continue saving lives with like-minded young people.</p>
+                                <button class="btn-card">join the club</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="our-partners">
+                <div class="container">
+                    <h3 class="heading-1">Our Partners</h3>
+                    <!-- Swiper -->
+                    <div class="swiper partners">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./images/partners/our-partner-03.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/partners/our-partner-04.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/partners/our-partner-05.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/partners/our-partner-06.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/partners/our-partner-07.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/partners/our-partner-08.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/partners/our-partner-09.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/partners/our-partner-10.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/partners/our-partner-11.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/partners/our-partner-01.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/partners/our-partner-02.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="section-4">
+                <div class="custom-container">
+                    <h3 class="heading-1">News & Articles</h3>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="card" style="background-image: url(./images/section-4/card-bg-01.jpg);">
+                                <div class="card-body">
+                                    <div class="card-inner-box">
+                                        <p class="card-title">More Donors Needed As Winter Draws Close</p>
+                                        <p class="card-desc">The Blood Donors Association is asking new and returning donors to show up to help others.</p>
+                                    </div>
+                                    <button class="btn-card">Read more</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card" style="background-image: url(./images/section-4/card-bg-02.jpg);">
+                                <div class="card-body">
+                                    <div class="card-inner-box">
+                                        <p class="card-title">If You Can’t Craving Ice, Get A Blood Test</p>
+                                        <p class="card-desc">Craving ice on a hot day is both normal and common. But if your craving is persistent, and seems unrelated to heat or thirst, it may be due to a nutritional deficiency.</p>
+                                    </div>
+                                    <button class="btn-card">Read more</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card" style="background-image: url(./images/section-4/card-bg-03.jpg);">
+                                <div class="card-body">
+                                    <div class="card-inner-box">
+                                        <p class="card-title">BDA Sponsors Modern Wrapping For Blood Donation Caravan</p>
+                                        <p class="card-desc">The Blood Donors Association is asking new and returning donors to show up to help others.</p>
+                                    </div>
+                                    <button class="btn-card">Read more</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
 
         <!-- footer -->
         <footer id="footer">
@@ -193,8 +388,40 @@
 
     <script src="./lib/jquery/jquery-3.6.0.min.js"></script>
     <script src="./lib/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./lib/swiper/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var partners= new Swiper("#our-partners .partners", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            slidesPerGroup: 3,
+            loop: true,
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 4,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 5,
+                    spaceBetween: 50,
+                },
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
 
 </html>
