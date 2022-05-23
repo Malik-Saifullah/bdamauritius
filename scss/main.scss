@@ -1323,6 +1323,7 @@ $themeWhiteColor: #fefefe;
         }
     }
     .team-card{
+        overflow: hidden;
         width: 100%;
         max-width: 280px;
         display: flex;
