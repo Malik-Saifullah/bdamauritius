@@ -90,11 +90,14 @@ a { text-decoration: none; }
 #banner { width: 100%; max-height: 660px; height: 97vh; overflow: hidden; }
 #banner .banner-video { display: block; width: 100%; height: 100%; -o-object-fit: cover; object-fit: cover; -o-object-position: center; object-position: center; }
 
-/*======================================================= breadcrumb-banner
+/*======================================================= breadcrumb
 =======================================================*/
 #breadcrumb { background-color: #ef1a3e; padding-top: 40px; min-height: 163px; }
 #breadcrumb .page-title { color: #FFFFFF; font-family: "Manrope", Sans-serif; font-size: 40px; font-weight: 800; line-height: 1; text-transform: capitalize; margin-bottom: 20px; text-align: center; }
-#breadcrumb .page-subtitle { text-align: center; color: #FFE6E8; font-family: "Manrope", Sans-serif; font-size: 15px; font-weight: 600; text-transform: capitalize; }
+#breadcrumb .page-subtitle { text-align: center; color: #FFE6E8; font-family: "Manrope", Sans-serif; font-size: 15px; font-weight: 600; text-transform: capitalize; margin-bottom: 10px; }
+#breadcrumb .post-info-list { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; list-style-type: none; -ms-flex-wrap: wrap; flex-wrap: wrap; margin-bottom: 5px; }
+#breadcrumb .post-info-list li + li:before { content: ""; position: absolute; left: 0; background: #fff; width: 1px; max-width: 1px; height: 21px; }
+#breadcrumb .post-info-item { font-family: "Manrope", Sans-serif; font-size: 15px; font-weight: 500; line-height: 1.5; color: #FFFBFB; padding-left: 25px; padding-right: 25px; position: relative; }
 
 /*======================================================= breadcrumb-banner
 =======================================================*/
@@ -371,6 +374,34 @@ a { text-decoration: none; }
 =======================================================*/
 #map iframe { width: 100%; height: 375px; margin-bottom: -7px; margin-top: 60px; }
 @media (max-width: 767px) { #map iframe { margin-top: 30px; } }
+
+/*======================================================= post
+=======================================================*/
+#post { padding-top: 80px; padding-bottom: 80px; }
+@media (max-width: 767px) { #post { padding-top: 60px; padding-bottom: 60px; } }
+#post .custom-container { max-width: 860px; }
+#post .share-box { padding: 30px 10px; border-top: 1px solid rgba(159, 163, 173, 0.2); border-bottom: 1px solid rgba(159, 163, 173, 0.2); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-column-gap: 20px; column-gap: 20px; row-gap: 20px; margin-bottom: 60px; }
+#post .share-title { font-family: "Manrope", Sans-serif; font-size: 20px; font-weight: 800; text-transform: capitalize; line-height: 1.2em; color: #ef1a3e; }
+#post .share-list { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-column-gap: 2.3rem; column-gap: 2.3rem; row-gap: 20px; }
+@media (max-width: 767px) { #post .share-list { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; } }
+#post .share-link i { font-size: 1.3rem; color: #ef1a3e; transition: all .3s; -webkit-transition: all .3s; -moz-transition: all .3s; -ms-transition: all .3s; -o-transition: all .3s; }
+#post .share-link i:hover { color: #303030; }
+#post .content-box { padding: 10px; }
+#post .desc { color: #303030; font-family: "Manrope", Sans-serif; font-size: 16px; font-weight: 500; line-height: 1.6rem; margin-bottom: 14px; }
+#post .section-img { padding: 10px; margin-top: 20px; }
+#post .pagination { margin-top: 30px; margin-bottom: 30px; padding-top: 45px; padding-bottom: 45px; }
+#post .pagination li { position: relative; }
+#post .pagination li + li:before { content: ""; position: absolute; left: -11px; background: rgba(159, 163, 173, 0.2); width: 1px; max-width: 1px; height: 46px; top: 14px; }
+#post .btn-pagination { position: relative; font-family: "Manrope", Sans-serif; font-size: 16px; font-weight: 600; color: #303030; -webkit-column-gap: 10px; column-gap: 10px; }
+#post .btn-pagination i { font-size: 1.3rem; color: #ef1a3e; }
+#post .btn-pagination:hover .content-title { color: #ef1a3e; }
+#post .content-title, #post .content-desc { overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; text-align: left; }
+#post .card { height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; border: none; overflow: hidden; padding: 48px 18px 28px 18px; -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15); box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15); border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; transition: all .25s; -webkit-transition: all .25s; -moz-transition: all .25s; -ms-transition: all .25s; -o-transition: all .25s; text-align: center; background: transparent; }
+#post .card:hover { -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15); box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15); }
+#post .card .share-title, #post .card .desc { display: inline-block; margin-bottom: 25px; }
+#post .card .divider { border-top: 1px solid #eaeaea; padding: 10px 20px 0; margin-left: -18px; margin-right: -18px; }
+#post .card .divider p { font-family: "Manrope", Sans-serif; font-size: 14px; font-weight: 600; line-height: 1.3rem; color: #ef1a3e; }
+#post .btn-more { display: inline-block; color: #ef1a3e; font-family: "Manrope", Sans-serif; font-size: 16px; font-weight: 800; line-height: 1.5; margin-bottom: 25px; }
 
 /*======================================================= footer
 =======================================================*/
