@@ -149,7 +149,7 @@ a { text-decoration: none; }
 #section-3 .btn-card { font-family: "Manrope", Sans-serif; font-size: 14px; font-weight: 800; line-height: 1; text-transform: uppercase; color: #fff; background-color: #303030; padding: 10px 40px; border: none; border-radius: 30px; -webkit-border-radius: 30px; -moz-border-radius: 30px; -ms-border-radius: 30px; -o-border-radius: 30px; -webkit-transition: all .3s; transition: all .3s; }
 #section-3 .btn-card:hover { background-color: #fff; color: #ef1a3e; }
 
-/*======================================================= section-4
+/*======================================================= our-partners
 =======================================================*/
 #our-partners { padding-top: 120px; }
 @media (max-width: 767px) { #our-partners { padding-top: 70px; } }
@@ -405,6 +405,19 @@ a { text-decoration: none; }
 #post .card .divider { border-top: 1px solid #eaeaea; padding: 10px 20px 0; margin-left: -18px; margin-right: -18px; }
 #post .card .divider p { font-family: "Manrope", Sans-serif; font-size: 14px; font-weight: 600; line-height: 1.3rem; color: #ef1a3e; }
 #post .btn-more { display: inline-block; color: #ef1a3e; font-family: "Manrope", Sans-serif; font-size: 16px; font-weight: 800; line-height: 1.5; margin-bottom: 25px; }
+
+/*======================================================= page-not-found
+=======================================================*/
+#page-not-found { padding-top: 50px; padding-bottom: 50px; }
+#page-not-found .custome-container { min-height: 100vh; height: 100%; }
+#page-not-found .title { font-family: 'Roboto', sans-serif; font-size: 276px; font-weight: 700; line-height: 323px; color: #ef1a3e; margin: 0; text-align: center; }
+@media screen and (max-width: 991px) { #page-not-found .title { font-size: 144px; line-height: 169px; } }
+#page-not-found .subtitle { font-family: 'Roboto', sans-serif; font-size: 48px; font-weight: 500; line-height: 0px; color: #ef1a3e; margin: 0; text-align: center; }
+@media screen and (max-width: 991px) { #page-not-found .subtitle { font-size: 24px; } }
+#page-not-found .desc { font-family: 'Roboto', sans-serif; font-size: 24px; font-weight: 400; line-height: 28px; margin-top: 55px; margin-bottom: 66px; text-align: center; }
+@media screen and (max-width: 991px) { #page-not-found .desc { font-size: 14px; line-height: 16px; margin-top: 42px; margin-bottom: 42px; } }
+#page-not-found .btn-home { display: block; width: 134px; font-family: 'Roboto', sans-serif; font-size: 18px; font-weight: 500; line-height: 21px; letter-spacing: 0em; color: #fefefe; background-color: #ef1a3e; padding: 9px 42px 10px; margin: 0 auto 40px; text-align: center; border-radius: 30px; -webkit-border-radius: 30px; -moz-border-radius: 30px; -ms-border-radius: 30px; -o-border-radius: 30px; transition: all .3s; -webkit-transition: all .3s; -moz-transition: all .3s; -ms-transition: all .3s; -o-transition: all .3s; }
+#page-not-found .btn-home:hover { background-color: #303030; }
 
 /*======================================================= footer
 =======================================================*/
