@@ -94,6 +94,7 @@ a { text-decoration: none; }
 =======================================================*/
 #breadcrumb { background-color: #ef1a3e; padding-top: 40px; min-height: 163px; }
 #breadcrumb .page-title { color: #FFFFFF; font-family: "Manrope", Sans-serif; font-size: 40px; font-weight: 800; line-height: 1; text-transform: capitalize; margin-bottom: 20px; text-align: center; }
+#breadcrumb .publish-date { text-align: center; color: #FFE6E8; font-family: "Manrope", Sans-serif; font-size: 15px; font-weight: 600; text-transform: capitalize; margin-top: -10px; margin-bottom: 5px; font-style: italic; }
 #breadcrumb .page-subtitle { text-align: center; color: #FFE6E8; font-family: "Manrope", Sans-serif; font-size: 15px; font-weight: 600; text-transform: capitalize; margin-bottom: 10px; }
 #breadcrumb .post-info-list { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; list-style-type: none; -ms-flex-wrap: wrap; flex-wrap: wrap; margin-bottom: 5px; }
 #breadcrumb .post-info-list li + li:before { content: ""; position: absolute; left: 0; background: #fff; width: 1px; max-width: 1px; height: 21px; }
@@ -101,8 +102,8 @@ a { text-decoration: none; }
 
 /*======================================================= breadcrumb-banner
 =======================================================*/
-#breadcrumb-banner { overflow: hidden; position: relative; min-height: 60vh; height: 100%; max-height: 593px; margin-bottom: 75px; }
-#breadcrumb-banner #section-video { min-width: 100%; width: 100%; -o-object-fit: cover; object-fit: cover; -o-object-position: center; object-position: center; min-height: 60vh; height: 100%; max-height: 593px; }
+#breadcrumb-banner { overflow: hidden; position: relative; min-height: 60vh; height: 100%; max-height: 680px; margin-bottom: 75px; }
+#breadcrumb-banner #section-video { min-width: 100%; width: 100%; -o-object-fit: cover; object-fit: cover; -o-object-position: center; object-position: center; min-height: 60vh; height: 100%; max-height: 680px; }
 #breadcrumb-banner #section-video img { -o-object-fit: cover; object-fit: cover; -o-object-position: center; object-position: center; }
 
 /*======================================================= section-1
@@ -192,6 +193,8 @@ a { text-decoration: none; }
 #privacy-policy .title { color: #ef1a3e; font-weight: 700; margin-bottom: 7px; }
 #privacy-policy .desc { color: #303030; font-weight: 500; margin-bottom: 14px; }
 #privacy-policy .unorder-list { font-family: "Manrope", Sans-serif; font-size: 16px; line-height: 1.5; font-weight: 500; margin-bottom: 14px; list-style: inside; list-style-type: disc; }
+#privacy-policy a { color: #ef1a3e; }
+#privacy-policy a:hover { color: #303030; text-decoration: underline; }
 
 /*======================================================= terms-conditions
 =======================================================*/
@@ -201,6 +204,8 @@ a { text-decoration: none; }
 #terms-conditions .title { color: #ef1a3e; font-weight: 700; margin-bottom: 7px; }
 #terms-conditions .desc { color: #303030; font-weight: 500; margin-bottom: 14px; }
 #terms-conditions .order-list { font-family: "Manrope", Sans-serif; font-size: 15px; line-height: 1.5; font-weight: 500; margin-bottom: 14px; list-style: inside; list-style-type: decimal; }
+#terms-conditions a { color: #ef1a3e; }
+#terms-conditions a:hover { color: #303030; text-decoration: underline; }
 
 /*======================================================= about-us
 =======================================================*/

@@ -25,5 +25,6 @@ const swiper = new Swiper('.mobile-app-imgs-carousel', {
     keyboard: true,
     pagination: {
         el: ".swiper-pagination",
+        clickable: true,
     },
 });
