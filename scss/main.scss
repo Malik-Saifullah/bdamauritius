@@ -66,6 +66,24 @@ $themeWhiteColor: #fefefe;
     }
 }
 
+.btn-primary{
+    border: none;
+    background-color: $primaryColor;
+    &:hover{
+        background-color: $themeBlackColor;
+    }
+}
+
+.btn-modal-close{
+    margin-left: auto;
+    float: right;
+    padding: 0;
+    i{
+        font-size: 24px;
+        color: $primaryColor;
+    }
+}
+
 
 /*=======================================================
                         header
@@ -2545,6 +2563,252 @@ $themeWhiteColor: #fefefe;
             margin-left: auto;
             margin-right: 0;
         }
+    }
+}
+.modal{
+    .modal-dialog{
+        max-width: 362px;
+    }
+    .modal-content{
+        background-color: $themeBgColor;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+    }
+    .modal-body{
+        padding-bottom: 30px;
+    }
+    .modal-title{
+        margin-top: 40px;
+        margin-bottom: 15px;
+        font-family: 'Manrope', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .modal-desc{
+        font-family: 'Manrope', sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .btn-primary{
+        display: block;
+        width: 100%;
+        max-width: 296px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Manrope', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        padding: 12px;
+        text-align: center;
+        box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.1);
+        border-radius: 11px;
+        -webkit-border-radius: 11px;
+        -moz-border-radius: 11px;
+        -ms-border-radius: 11px;
+        -o-border-radius: 11px;
+        .counter{
+            font-family: Manrope;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin-left: 10px;
+        }
+    }
+    .color-calendar,
+    .color-calendar1{
+        background: transparent;
+        box-shadow: unset;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .calendar__monthyear{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .color-calendar.basic .calendar__arrow-inner::before,
+    .color-calendar1.basic .calendar__arrow-inner::before{
+        color: $primaryColor;
+    }
+    .calendar__day-box,
+    .color-calendar.basic .calendar__days .calendar__day-selected .calendar__day-box{
+        box-shadow: unset;
+        background: transparent;
+    }
+    .calendar__day.calendar__day-active.calendar__day-today.calendar__day-no-event.calendar__day-selected{
+        background: $primaryColor;
+        border-radius: 4px;
+    }
+    .calendar__day.calendar__day-active.calendar__day-no-event.calendar__day-selected{
+        background: #F37B86;
+        border-radius: 4px;
+    }
+    .icon-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 70px;
+    }
+}
+#volunteer{
+    input{
+        margin-right: 14px;
+    }
+    label{
+        font-family: 'Manrope', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .checkbox-box .row{
+        margin-bottom: 20px;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btn-primary{
+        margin-top: 36px;
+    }
+}
+#volunteer2{
+    .checkbox-box .col-12{
+        margin-bottom: 7px;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    label{
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: left;
+        input{
+            margin-right: 14px;
+        }
+    }
+    .btn-primary{
+        margin-top: 26px;
+    }
+}
+#volunteer3{
+    .modal-desc{
+        margin-bottom: 0;
+    }
+}
+#volunteer4{
+    .modal-title{
+        margin-top: 30px;
+        margin-bottom: 52px;
+    }
+    .modal-desc{
+        margin-bottom: 68px;
+    }
+}
+
+#request,
+#request2{
+    input{
+        margin-right: 14px;
+    }
+    label{
+        font-family: 'Manrope', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .checkbox-box .row{
+        margin-bottom: 20px;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    .btn-primary{
+        margin-top: 36px;
+    }
+}
+#request3{
+    .checkbox-box .col-12{
+        margin-bottom: 7px;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    label{
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: left;
+        input{
+            margin-right: 14px;
+        }
+    }
+    .btn-primary{
+        margin-top: 26px;
+    }
+}
+#request4{
+    .modal-desc{
+        margin-bottom: 0;
+    }
+}
+#request5{
+    .teatarea{
+        display: block;
+        width: 100%;
+        max-width: 296px;
+        height: 165px;
+        margin-left: auto;
+        margin-right: auto;
+        background: #FFFFFF;
+        border: 1px solid #F37B86;
+        border-radius: 10px;
+        font-family: 'Manrope', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 66px;
+    }
+}
+#request6{
+    .modal-title{
+        margin-top: 30px;
+        margin-bottom: 52px;
+    }
+    .modal-desc{
+        margin-bottom: 68px;
     }
 }
 

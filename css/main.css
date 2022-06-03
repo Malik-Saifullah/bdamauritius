@@ -43,6 +43,12 @@ a { text-decoration: none; }
 .quote p { font-family: "Manrope", Sans-serif; font-size: 22px; font-weight: 500; margin-top: 15px; color: #626262; line-height: 1.5; }
 .quote p::before { color: #ef1a3e; content: "“"; font-size: calc(0.8px * 100); font-family: "Times New Roman",Times,serif; font-weight: 900; line-height: 1; display: block; height: 0.6em; margin-bottom: 15px; }
 
+.btn-primary { border: none; background-color: #ef1a3e; }
+.btn-primary:hover { background-color: #303030; }
+
+.btn-modal-close { margin-left: auto; float: right; padding: 0; }
+.btn-modal-close i { font-size: 24px; color: #ef1a3e; }
+
 /*======================================================= header
 =======================================================*/
 #header { top: 0; left: 0; right: 0; z-index: 9; }
@@ -475,6 +481,53 @@ a { text-decoration: none; }
 #app .user-stats-inner-box .title { font-family: 'Manrope', sans-serif; font-size: 10px; font-weight: 600; line-height: 14px; letter-spacing: 0em; text-align: left; color: #F37B86; }
 #app .notification-box { width: 100%; max-width: 100px; text-align: right; }
 #app .notification-box .tag { margin-left: auto; margin-right: 0; }
+
+.modal .modal-dialog { max-width: 362px; }
+.modal .modal-content { background-color: #FFFBFB; -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25); box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25); border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; }
+.modal .modal-body { padding-bottom: 30px; }
+.modal .modal-title { margin-top: 40px; margin-bottom: 15px; font-family: 'Manrope', sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; letter-spacing: 0em; text-align: center; }
+.modal .modal-desc { font-family: 'Manrope', sans-serif; font-size: 12px; font-weight: 600; line-height: 16px; letter-spacing: 0em; text-align: center; margin-bottom: 30px; }
+.modal .btn-primary { display: block; width: 100%; max-width: 296px; margin-left: auto; margin-right: auto; font-family: 'Manrope', sans-serif; font-size: 16px; font-weight: 500; line-height: 22px; letter-spacing: 0em; padding: 12px; text-align: center; -webkit-box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.1); box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.1); border-radius: 11px; -webkit-border-radius: 11px; -moz-border-radius: 11px; -ms-border-radius: 11px; -o-border-radius: 11px; }
+.modal .btn-primary .counter { font-family: Manrope; font-size: 12px; font-weight: 400; line-height: 16px; letter-spacing: 0em; text-align: left; margin-left: 10px; }
+.modal .color-calendar, .modal .color-calendar1 { background: transparent; -webkit-box-shadow: unset; box-shadow: unset; font-family: 'Montserrat', sans-serif; font-size: 12px; font-weight: 700; line-height: 15px; letter-spacing: 0em; text-align: left; }
+.modal .calendar__monthyear { font-family: 'Montserrat', sans-serif; font-size: 15px; font-weight: 700; line-height: 19px; letter-spacing: 0em; text-align: center; }
+.modal .color-calendar.basic .calendar__arrow-inner::before, .modal .color-calendar1.basic .calendar__arrow-inner::before { color: #ef1a3e; }
+.modal .calendar__day-box, .modal .color-calendar.basic .calendar__days .calendar__day-selected .calendar__day-box { -webkit-box-shadow: unset; box-shadow: unset; background: transparent; }
+.modal .calendar__day.calendar__day-active.calendar__day-today.calendar__day-no-event.calendar__day-selected { background: #ef1a3e; border-radius: 4px; }
+.modal .calendar__day.calendar__day-active.calendar__day-no-event.calendar__day-selected { background: #F37B86; border-radius: 4px; }
+.modal .icon-box { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-top: 70px; }
+
+#volunteer input { margin-right: 14px; }
+#volunteer label { font-family: 'Manrope', sans-serif; font-size: 18px; font-weight: 600; line-height: 25px; letter-spacing: 0em; text-align: left; }
+#volunteer .checkbox-box .row { margin-bottom: 20px; max-width: 300px; margin-left: auto; margin-right: auto; }
+#volunteer .btn-primary { margin-top: 36px; }
+
+#volunteer2 .checkbox-box .col-12 { margin-bottom: 7px; max-width: 300px; margin-left: auto; margin-right: auto; }
+#volunteer2 label { font-family: 'Roboto', sans-serif; font-size: 12px; font-weight: 400; line-height: 14px; letter-spacing: 0em; text-align: left; }
+#volunteer2 label input { margin-right: 14px; }
+#volunteer2 .btn-primary { margin-top: 26px; }
+
+#volunteer3 .modal-desc { margin-bottom: 0; }
+
+#volunteer4 .modal-title { margin-top: 30px; margin-bottom: 52px; }
+#volunteer4 .modal-desc { margin-bottom: 68px; }
+
+#request input, #request2 input { margin-right: 14px; }
+#request label, #request2 label { font-family: 'Manrope', sans-serif; font-size: 18px; font-weight: 600; line-height: 25px; letter-spacing: 0em; text-align: left; }
+#request .checkbox-box .row, #request2 .checkbox-box .row { margin-bottom: 20px; max-width: 300px; margin-left: auto; margin-right: auto; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+#request .btn-primary, #request2 .btn-primary { margin-top: 36px; }
+
+#request3 .checkbox-box .col-12 { margin-bottom: 7px; max-width: 300px; margin-left: auto; margin-right: auto; }
+#request3 label { font-family: 'Roboto', sans-serif; font-size: 12px; font-weight: 400; line-height: 14px; letter-spacing: 0em; text-align: left; }
+#request3 label input { margin-right: 14px; }
+#request3 .btn-primary { margin-top: 26px; }
+
+#request4 .modal-desc { margin-bottom: 0; }
+
+#request5 .teatarea { display: block; width: 100%; max-width: 296px; height: 165px; margin-left: auto; margin-right: auto; background: #FFFFFF; border: 1px solid #F37B86; border-radius: 10px; font-family: 'Manrope', sans-serif; font-size: 12px; font-weight: 400; line-height: 14px; letter-spacing: 0em; text-align: left; margin-bottom: 66px; }
+
+#request6 .modal-title { margin-top: 30px; margin-bottom: 52px; }
+#request6 .modal-desc { margin-bottom: 68px; }
 
 /*======================================================= footer
 =======================================================*/
