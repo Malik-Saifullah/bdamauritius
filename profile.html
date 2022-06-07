@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="./images/fav.png" type="image/x-icon">
+    <title>Edit Profile | bdamauritius</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./lib/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/fontawesome-free-6.0.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./lib/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- header -->
+        <header id="header">
+            <div class="header-top">
+                <div class="custom-container">
+                    <div class="d-flex align-items-center justify-content-between flex-wrap">
+                        <a href="mailto:contact@bdamauritius.org" class="email">
+                            <i class="far fa-envelope"></i> contact@bdamauritius.org
+                        </a>
+                        <a href="tel:+2304630074" class="tel">
+                            <i class="fas fa-phone"></i> Tel: +230 463 0074
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom sticky">
+                <div class="custom-container">
+                    <nav class="navbar navbar-expand-md">
+                        <a class="navbar-brand" href="./index.html">
+                            <img src="./images/logo.png" width="228" height="65" alt="" class="logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon">
+                                <i class="fas fa-bars"></i>
+                            </span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active"  href="./index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="./about-us.html" id="about-us" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        About us
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="#about-us">
+                                        <li><a class="dropdown-item" href="./team.html">Our Team</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="./all-about-blood.html">All about Blood</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./join-us.html">Join us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./faq.html">Faqs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./contact-us.html">Contact us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <nav class="navbar ml-auto">
+                            <form class="header-btn-box justify-content-start">
+                                <a href="./donate.html" class="btn btn-blood-request rounded-pill" type="button">request/donate blood</a>
+                                <a href="./donate.html" class="btn btn-donate rounded-pill" type="button">SUPPORT US</a>
+                            </form>
+                        </nav>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!-- main -->
+        <main id="main">
+            <!-- profile -->
+            <section id="profile">
+                <div class="custom-container">
+                    <div class="profile-img-box mb-16 flex items-center justify-center">
+                        <div class="img-box">
+                            <div class="circle upload-button">
+                                <!-- User Profile Image -->
+                                <img class="profile-pic" src="">
+                                <!-- Default Image -->
+                                <!-- <i class="fa fa-user fa-5x"></i> -->
+                            </div>
+                            <input class="file-upload" type="file" accept="image/*">
+                        </div>
+                        <p class="user-name">Stephane Doe</p>
+                    </div>
+
+                    <div class="form-box">
+                        <p class="section-title">Profile Details</p>
+                        <div class="section-body">
+                            <div class="field-outer-box">
+                                <div class="field-box">
+                                    <label for="name">Full Name</label>
+                                    <input type="text" id="name" value="Stephane Doe">
+                                </div>
+                            </div>
+                            <div class="field-outer-box">
+                                <div class="field-box">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" value="stephanedoe@gmail.com">
+                                </div>
+                            </div>
+                            <div class="field-outer-box">
+                                <div class="field-box">
+                                    <label for="password">Password</label>
+                                    <input type="password" id="password" value="**********">
+                                </div>
+                            </div>
+                            <div class="field-outer-box">
+                                <div class="field-box">
+                                    <label for="phone">Phone</label>
+                                    <input type="tel" id="phone" value="+000 1234 5678 910">
+                                </div>
+                            </div>
+                            <div class="field-outer-box">
+                                <div class="field-box">
+                                    <label for="address">Address</label>
+                                    <input type="text" id="address" value="51802, Grand Port, Cluny, Mare Ch..">
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="section-title">Personal Details</p>
+                        <div class="section-body">
+                            <div class="field-outer-box">
+                                <div class="field-box">
+                                    <label for="bloodGroup">Blood Group</label>
+                                    <input type="text" id="bloodGroup" value="O+">
+                                </div>
+                            </div>
+                            <div class="field-outer-box">
+                                <div class="field-box">
+                                    <label for="dob">Date of Birth</label>
+                                    <input type="test" id="dob" value="27-07-1992">
+                                </div>
+                            </div>
+                            <div class="field-outer-box">
+                                <div class="field-box">
+                                    <label for="gender">Gender</label>
+                                    <select id="gender">
+                                        <option selected>Male</option>
+                                        <option>Female</option>
+                                        <option>Custom</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="btn-profile-update">Update Profile</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- footer -->
+        <footer id="footer">
+            <div class="footer-top">
+                <div class="custom-container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <p class="footer-title">Are You Looking For Blood? <br> Do You Wish To Donate Blood?</p>
+                            <p class="footer-subtitle">Download Our App NouDisan and Get Started!</p>
+                            <p class="footer-desc">To download, you can search ‘NouDisan’ on the Apple App Store or Google Play.</p>
+                            <div class="app-store-link-box">
+                                <div class="app-link-box">
+                                    <a href="#" target="_blank" rel="noopener noreferrer">
+                                        <img src="./images/icons/google-play-badge-logo.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="app-link-box">
+                                    <a href="#" target="_blank" rel="noopener noreferrer">
+                                        <img src="./images/icons/app-store-badge.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 overflow-hidden">
+                            <div class="app-slider-box position-relative pb-5">
+                                <!-- Slider main container -->
+                                <div class="swiper-container mobile-app-imgs-carousel">
+                                    <!-- Additional required wrapper -->
+                                    <div class="swiper-wrapper">
+                                        <!-- Slides -->
+                                        <div class="swiper-slide">
+                                            <div class="img-box">
+                                                <img src="./images/app/app-01.png" class="mx-auto" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="img-box">
+                                                <img src="./images/app/app-02.png" class="mx-auto" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="img-box">
+                                                <img src="./images/app/app-03.png" class="mx-auto" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-middle">
+                <div class="custom-container">
+                    <div class="footer-pagination d-flex align-content-center justify-content-center flex-wrap">
+                        <ul class="footer-nav-list d-flex align-content-center flex-wrap" role="list">
+                            <li class="footer-nav-item">
+                                <a href="./about-us.html" class="footer-nav-link">About Us</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a href="./privacy-policy.html" class="footer-nav-link">Privacy Policy</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a href="./terms-and-conditions.html" class="footer-nav-link">Terms & Conditions</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a class="footer-nav-link">BDA Mauritius, Assn. No: 5719</a>
+                            </li>
+                        </ul>
+                        <ul class="social-list d-flex align-content-center" role="list">
+                            <li class="social-item mr-3">
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="custom-container">
+                    <p class="copyright">Copyright 2022 © All rights Reserved. Design by <a href="" target="_blank" rel="noopener noreferrer">Dygitale</a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script src="./lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./lib/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="./lib/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+
+    <script>
+        var readURL = function (input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $('.profile-pic').show();
+                    $('.profile-pic').attr('src', e.target.result);
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        };
+        $(".file-upload").on('change', function () {
+            readURL(this);
+        });
+        $(".upload-button").on('click', function () {
+            $(".file-upload").click();
+        });
+    </script>
+</body>
+
+</html>

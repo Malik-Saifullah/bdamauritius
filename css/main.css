@@ -437,7 +437,7 @@ a { text-decoration: none; }
 #app .fr-col-box .content-box { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; padding: 10px 20px; }
 #app .fr-col-box .content-box, #app .fr-col-box .user-btn-box { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-column-gap: 20px; column-gap: 20px; row-gap: 20px; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 #app .user-name { font-family: 'Manrope', sans-serif; font-size: 20px; font-weight: 800; line-height: 27px; letter-spacing: 0em; text-align: left; }
-#app .fr-col-box .btn-request, #app .fr-col-box .btn-donate { font-family: 'Manrope', sans-serif; font-size: 14px; font-weight: 600; line-height: 19px; letter-spacing: 0em; text-align: center; color: #fefefe; background-color: #ef1a3e; border: none; padding: 8px 20px 10px; border-radius: 30px; -webkit-border-radius: 30px; -moz-border-radius: 30px; -ms-border-radius: 30px; -o-border-radius: 30px; }
+#app .fr-col-box .btn-request, #app .fr-col-box .btn-donate { font-family: 'Manrope', sans-serif; font-size: 14px; font-weight: 600; line-height: 19px; letter-spacing: 0em; text-align: center; color: #fefefe; background-color: #ef1a3e; border: none; padding: 7px 24px 8px; border-radius: 30px; -webkit-border-radius: 30px; -moz-border-radius: 30px; -ms-border-radius: 30px; -o-border-radius: 30px; }
 #app .list-group-item { background: transparent; }
 #app .aside-link { font-family: 'Manrope', sans-serif; font-size: 14px; font-weight: 600; line-height: 19px; letter-spacing: 0em; text-align: left; color: #ef1a3e; transition: all .3s; -webkit-transition: all .3s; -moz-transition: all .3s; -ms-transition: all .3s; -o-transition: all .3s; }
 #app .aside-link:hover { color: #303030; }
@@ -528,6 +528,55 @@ a { text-decoration: none; }
 
 #request6 .modal-title { margin-top: 30px; margin-bottom: 52px; }
 #request6 .modal-desc { margin-bottom: 68px; }
+
+/*======================================================= donation-alert
+=======================================================*/
+#donation-alert { padding-top: 120px; padding-bottom: 120px; }
+@media (max-width: 767px) { #donation-alert { padding-top: 60px; padding-bottom: 60px; } }
+#donation-alert .page-title { font-family: 'Manrope', sans-serif; font-size: 20px; font-weight: 800; line-height: 27px; letter-spacing: 0em; text-align: center; margin-bottom: 33px; }
+#donation-alert .form-box { width: 100%; max-width: 400px; margin-left: auto; margin-right: auto; }
+#donation-alert .short-info-card { margin-bottom: 30px; }
+#donation-alert .short-info-card .card-body { padding: 24px 25px 26px; }
+#donation-alert .card-body { background: #FFFBFB; -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25); box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25); border-radius: 8px; }
+#donation-alert .fr-box { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; margin-bottom: 30px; }
+#donation-alert .card-title { font-family: 'Manrope', sans-serif; font-size: 16px; font-weight: 700; line-height: 22px; letter-spacing: 0em; text-align: left; margin-bottom: 10px; }
+#donation-alert .invoice-number { font-family: 'Manrope', sans-serif; font-size: 12px; font-weight: 400; line-height: 16px; letter-spacing: 0em; text-align: left; }
+#donation-alert .alert-icon { display: block; margin-left: auto; }
+#donation-alert .sc-box { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
+#donation-alert .name { font-family: 'Manrope', sans-serif; font-size: 12px; font-weight: 700; line-height: 16px; letter-spacing: 0em; text-align: left; margin-bottom: 10px; }
+#donation-alert .date { font-family: 'Manrope', sans-serif; font-size: 12px; font-weight: 400; line-height: 16px; letter-spacing: 0em; text-align: left; }
+#donation-alert .tag { font-family: 'Manrope', sans-serif; font-size: 12px; font-weight: 400; line-height: 16px; letter-spacing: 0em; text-align: center; padding: 5px 17px; color: #FFFBFB; background: #ef1a3e; border: none; border-radius: 30px; -webkit-border-radius: 30px; -moz-border-radius: 30px; -ms-border-radius: 30px; -o-border-radius: 30px; float: right; }
+#donation-alert .btn-profile-update { font-family: 'Manrope', sans-serif; font-size: 16px; font-weight: 700; line-height: 22px; letter-spacing: 0em; text-align: center; color: #FFFBFB; background-color: #ef1a3e; -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); width: 100%; border: none; border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; padding: 15px; margin-top: 30px; }
+#donation-alert .btn-profile-update:hover { background-color: #303030; }
+#donation-alert .detail-info-card { margin-bottom: 15px; }
+#donation-alert .detail-info-card .card-body { padding: 25px 17px; }
+#donation-alert .detail-item { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; padding-top: 11px; padding-bottom: 11px; border-bottom: 1px solid #F37B8673; }
+#donation-alert .title { font-family: 'Manrope', sans-serif; font-size: 14px; font-weight: 700; line-height: 19px; letter-spacing: 0em; text-align: left; margin-bottom: 6px; }
+#donation-alert .desc { font-family: 'Manrope', sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; letter-spacing: 0em; text-align: left; }
+#donation-alert .icon-box { width: 72px; }
+#donation-alert .content-box { margin-right: auto; }
+#donation-alert .tag-box { margin-top: auto; }
+#donation-alert .tag-box .tag { cursor: pointer; }
+
+/*======================================================= profile
+=======================================================*/
+#profile { padding-top: 120px; padding-bottom: 120px; }
+@media (max-width: 767px) { #profile { padding-top: 60px; padding-bottom: 60px; } }
+#profile .form-box { width: 100%; max-width: 400px; margin-left: auto; margin-right: auto; }
+#profile .img-box { max-width: 150px; max-height: 150px; position: relative; border-radius: 50%; -webkit-box-shadow: 0px 22px 40px rgba(0, 0, 0, 0.1); box-shadow: 0px 22px 40px rgba(0, 0, 0, 0.1); cursor: pointer; margin-left: auto; margin-right: auto; }
+#profile .img-box .profile-pic { max-width: 175px; max-height: 175px; margin-left: auto; margin-right: auto; display: block; -o-object-fit: cover; object-fit: cover; margin-top: -12px; margin-left: -12px; }
+#profile .img-box .file-upload { display: none; }
+#profile .img-box .circle { border-radius: 50%; overflow: hidden; width: 150px; height: 150px; -webkit-transition: all .3s; transition: all .3s; background-image: url("../images/icons/camera.png"); background-repeat: no-repeat; background-position: center; background-color: #fefefe; }
+#profile .img-box img { width: 180px; height: 180px; }
+#profile .user-name { font-family: 'Manrope', sans-serif; font-size: 18px; font-weight: 500; line-height: 25px; letter-spacing: 0em; text-align: center; margin-top: 20px; margin-bottom: 30px; }
+#profile .section-title { font-family: 'Manrope', sans-serif; font-size: 14px; font-weight: 700; line-height: 19px; letter-spacing: 0em; text-align: left; margin-bottom: 15px; }
+#profile .section-body { margin-bottom: 30px; }
+#profile .field-outer-box { margin-bottom: 21px; }
+#profile .field-box { display: -webkit-box; display: -ms-flexbox; display: flex; padding-bottom: 5px; border-bottom: 1px solid #F37B86; }
+#profile label { font-family: 'Manrope', sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; letter-spacing: 0em; text-align: left; padding-top: 6px; padding-bottom: 6px; padding-left: 10px; border-right: 1px solid #F37B86; min-width: 96px; max-width: 96px; }
+#profile input, #profile select { font-family: 'Manrope', sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; letter-spacing: 0em; text-align: left; padding: 6px 10px; width: 100%; border: none; background: transparent; display: inline-block; white-space: nowrap; overflow: hidden !important; text-overflow: ellipsis; }
+#profile .btn-profile-update { font-family: 'Manrope', sans-serif; font-size: 16px; font-weight: 700; line-height: 22px; letter-spacing: 0em; text-align: center; color: #FFFBFB; background-color: #ef1a3e; -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); width: 100%; border: none; border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; padding: 15px; margin-top: 30px; }
+#profile .btn-profile-update:hover { background-color: #303030; }
 
 /*======================================================= footer
 =======================================================*/
