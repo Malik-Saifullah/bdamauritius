@@ -1713,6 +1713,26 @@ $themeWhiteColor: #fefefe;
             text-decoration: underline;
         }
     }
+
+    .support-us-title{
+        color: #EF1A3E;
+        font-family: "Manrope", Sans-serif;
+        font-size: 28px;
+        font-weight: 900;
+        margin-bottom: 100px;
+        text-align: center;
+        @media (max-width:767px) {
+            margin-bottom: 60px;
+        }
+    }
+
+    .bank-info{
+        color: #626262;
+        font-family: "Manrope", Sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 14px;
+    }
 }
 
 
