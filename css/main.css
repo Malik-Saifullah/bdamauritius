@@ -2228,7 +2228,8 @@ a {
 }
 #section-5 .input-field:focus-visible {
   outline: 2px solid #f37b86;
-  border-width: 0;
+  border-radius: 3px;
+  border-color: transparent;
 }
 #section-5 .btn-submit {
   display: block;
