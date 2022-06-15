@@ -299,6 +299,14 @@ $themeWhiteColor: #fefefe;
                 color: #fff;
                 background-color: $themeBlackColor;
             }
+            @media screen and (max-width: 767px) {
+                font-size: 14px;
+                font-weight: 900;
+                padding: 10px 40px;
+                color: #ef1a3e;
+                background: #ffffff;
+                border: 2px solid #ffffff;
+            }
         }
         .navbar-toggler{
             margin-left: auto;
@@ -322,17 +330,31 @@ $themeWhiteColor: #fefefe;
                 padding: 1rem;
                 margin-left: -1rem;
                 margin-right: -1rem;
-                background: $themeBgColor;
+                background: $primaryColor;
+                margin-top: -1px;
+            }
+        }
+        .dropdown .btn-group{
+            @media screen and (max-width: 767px) {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        .dropdown-nav{
+            @media screen and (max-width: 767px) {
+                width: fit-content;
             }
         }
     }
     .navbar-collapse.collapse.show{
-        box-shadow: 0px 10px 40px 10px rgba(0, 0, 0, .1);
-        z-index: 1;
-        position: absolute;
-        left: 0;
-        top: 67px;
-        right: 0;
+        @media screen and (max-width: 767px) {
+            box-shadow: 0px 10px 40px 10px rgba(0, 0, 0, .1);
+            z-index: 1;
+            position: absolute;
+            left: 0;
+            top: 67px;
+            right: 0;
+        }
     }
 }
 #header.position_absolute{

@@ -416,6 +416,16 @@ a {
   color: #fff;
   background-color: #303030;
 }
+@media screen and (max-width: 767px) {
+  #header .header-bottom .btn-donate {
+    font-size: 14px;
+    font-weight: 900;
+    padding: 10px 40px;
+    color: #ef1a3e;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+  }
+}
 #header .header-bottom .navbar-toggler {
   margin-left: auto;
 }
@@ -452,17 +462,38 @@ a {
     padding: 1rem;
     margin-left: -1rem;
     margin-right: -1rem;
-    background: #FFFBFB;
+    background: #ef1a3e;
+    margin-top: -1px;
   }
 }
-#header .navbar-collapse.collapse.show {
-  -webkit-box-shadow: 0px 10px 40px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 10px 40px 10px rgba(0, 0, 0, 0.1);
-  z-index: 1;
-  position: absolute;
-  left: 0;
-  top: 67px;
-  right: 0;
+@media screen and (max-width: 767px) {
+  #header .header-bottom .dropdown .btn-group {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  #header .header-bottom .dropdown-nav {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+@media screen and (max-width: 767px) {
+  #header .navbar-collapse.collapse.show {
+    -webkit-box-shadow: 0px 10px 40px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 10px 40px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 67px;
+    right: 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
