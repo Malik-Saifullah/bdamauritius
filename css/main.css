@@ -2469,6 +2469,12 @@ a {
   line-height: 1.6rem;
   margin-bottom: 14px;
 }
+#post .desc a {
+  color: #ef1a3e;
+}
+#post .desc a:hover {
+  color: #303030;
+}
 #post .section-img {
   padding: 10px;
   margin-top: 20px;

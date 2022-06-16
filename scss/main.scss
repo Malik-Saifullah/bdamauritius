@@ -2125,6 +2125,12 @@ $themeWhiteColor: #fefefe;
         font-weight: 500;
         line-height: 1.6rem;
         margin-bottom: 14px;
+        a{
+            color: $primaryColor;
+            &:hover{
+                color: $themeBlackColor;
+            }
+        }
     }
     .section-img{
         padding: 10px;
