@@ -387,16 +387,17 @@ $themeWhiteColor: #fefefe;
 =======================================================*/
 #breadcrumb{
     background-color: $primaryColor;
-    padding-top: 40px;
-    min-height: 163px;
+    min-height: 220px;
+    display: flex;
+    align-items: center;
     .page-title{
         color: #FFFFFF;
         font-family: "Manrope", Sans-serif;
-        font-size: 40px;
+        font-size: 36px;
         font-weight: 800;
         line-height: 1;
         text-transform: capitalize;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         text-align: center;
     }
     .publish-date{

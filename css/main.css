@@ -526,17 +526,22 @@ a {
 =======================================================*/
 #breadcrumb {
   background-color: #ef1a3e;
-  padding-top: 40px;
-  min-height: 163px;
+  min-height: 220px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 #breadcrumb .page-title {
   color: #FFFFFF;
   font-family: "Manrope", Sans-serif;
-  font-size: 40px;
+  font-size: 36px;
   font-weight: 800;
   line-height: 1;
   text-transform: capitalize;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
 }
 #breadcrumb .publish-date {
@@ -3874,4 +3879,5 @@ a {
 #footer .footer-bottom .copyright a {
   color: #ef1a3e;
 }
+
 /*# sourceMappingURL=main.css.map */
